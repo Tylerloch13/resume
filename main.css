@@ -113,19 +113,19 @@ background-color: purple;}
 
 @media (max-width:389px) and (min-width: 333px)
 {
-.menu a {font-size: 8px !important;
+.menu a {font-size: 1rem !important;
 background-color: blue;}
 }
 @media (max-width: 533px) and (min-width: 411px)
 {
-  .menu a  { font-size: 10px !important;
-  background-color: pink;
+  .menu a  { font-size: 1rem !important;
+  
 padding: 3em;}
 }
 @media (max-width: 554px)
 {
-  #welcome  { font-size: 10px !important;
-  background-color: pink;
+  #welcome  { font-size: 1rem !important;
+  
 }
 }
 @media (max-width: 667px) and ( min-width:566px)
