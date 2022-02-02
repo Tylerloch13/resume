@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Luxurious+Roman&family=Marvel&family=Vujahday+Script&display=swap');
+
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+list-style: none;
+font-family: marvel; 
+
+}
+
+
+
+
+html{
+  background: url(images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+.main{
+  width: 100%;
+  height: 100%;
+display: flex;
+text-align: center;
+}
+
+.menu{
+ width: 30%;
+ background-color: rgb(00,00,00,.6)
+ 
+}
+
+#welcome{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 30px;
+letter-spacing: 4px;
+padding: 50px 0px 50px;
+}
+
+.menu a{
+text-decoration: none;
+color: white;
+font-size: 18px;
+letter-spacing: 2px;
+display: list-item;
+padding: 3em;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+
+}
+
+.menu a:hover{
+background-color: rgb(115,147,149,.5);
+transition: 0.5s;
+letter-spacing: 4px;
+text-transform: uppercase;
+}
+
+.body{
+ 
+}
+
+.body h1{
+  padding: 0px 25% 0px 25%;
+margin-top: 50px;
+color: white;
+letter-spacing: 4px;
+background-color: rgb(00,00,00,.6);
+width: 100;
+text-decoration: none;
+font-size: 3rem;
+text-align: center;
+margin-left: 25%;
+margin-right: auto;
+}
+.body h2{
+  margin-top: 150px;
+  text-decoration: none;
+  font-size: 39px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px gray, 0 0 5px black;
+  
+  }
+
+  .body ul {
+  color: white;
+  margin-right: auto;
+align-items: center;
+ margin-top: 80px;
+ margin-left: 25%;
+ font-weight: 500;
+ margin-bottom: 20px;
+ 
+ columns: 3;
+ column-gap: 200px;
+text-decoration: none;
+font-size: 1.5em; 
+text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px black;
+
+}
+
+
+@media (max-width:333px) 
+{
+.menu a {font-size: 6px !important;
+background-color: purple;}
+}
+
+
+@media (max-width:389px) and (min-width: 333px)
+{
+.menu a {font-size: 8px !important;
+background-color: blue;}
+}
+@media (max-width: 533px) and (min-width: 411px)
+{
+  .menu a  { font-size: 10px !important;
+  background-color: pink;
+padding: 3em;}
+}
+@media (max-width: 554px)
+{
+  #welcome  { font-size: 10px !important;
+  background-color: pink;
+}
+}
+@media (max-width: 667px) and ( min-width:566px)
+{
+  .menu a  { font-size: 15px !important;
+  
+}
+}
+@media (max-width: 566px) and ( min-width:533px)
+{
+  .menu a  { font-size: 14px !important;
+  background-color: green;
+}
+}
+@media (max-width: 411px) and ( min-width:389px)
+{
+  .menu a  { font-size: 9px !important;
+  background-color: aqua;
+}
+}
+
+@media (max-width: 480px) 
+{
+ 
+.body h1{width: 363px !important;
+  background-color: aqua;
+}
+}
